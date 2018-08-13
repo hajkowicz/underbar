@@ -31,9 +31,8 @@ var _ = { };
   // Returns the index at which value can be found in the array, or -1 if value
   // is not present in the array.
   _.indexOf = function(array, target){
-    // TIP: Here's an example of a function that needs to iterate, which we've
-    // implemented for you. Instead of using a standard `for` loop, though,
-    // it uses the iteration helper `each`, which you will need to write.
+    // TIP: Instead of using a standard `for` loop, you can re-use,
+    // the iteration helper `_.each` to find the item you are looking for
   };
 
   // Return all elements of an array that pass a truth test.
@@ -42,7 +41,7 @@ var _ = { };
 
   // Return all elements of an array that don't pass a truth test.
   _.reject = function(collection, iterator) {
-    // TIP: see if you can re-use _.select() here, without simply
+    // TIP: see if you can re-use _.filter() here, without simply
     // copying code in and modifying it
   };
 
